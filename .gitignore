@@ -22,3 +22,58 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# === BACKEND - Java / Maven / Spring Boot ===
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.log
+*.ctxt
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse / IntelliJ / VSCode
+*.iml
+*.ipr
+*.iws
+.idea/
+*.sw?
+*.swo
+*.DS_Store
+*.vscode/
+
+# Build directories
+/target/
+/out/
+/bin/
+
+# Maven
+.mtj.tmp/
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# === FRONTEND - Vue 3 / Vite ===
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vitepress/
+/frontend/.output/
+/frontend/.cache/
+/frontend/.nuxt/
+/frontend/.turbo/
+
+# Local env files
+/frontend/.env.local
+/frontend/.env.*
+!.env.example
+
+# System files
+Thumbs.db
+.DS_Store
+
